@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import useWebSocket from "@/utils/websocket";
 
 export default function Home() {
-  const data = useWebSocket("ws://127.0.0.1:4032");
+  const data = useWebSocket("ws://192.168.29.35:4032");
 
   return (
     <div className="flex justify-center items-center mt-10">
