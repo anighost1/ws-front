@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import useWebSocket from "@/utils/websocket";
 
 export default function Home() {
-  const data = useWebSocket("wss://ws.tigga.in/ws-back");
+  const data = useWebSocket("wss://ws.tigga.in/ws-back/");
 
   return (
     <div className="flex justify-center items-center mt-10">
